@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+	    <Button
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+		    android:layout_weight="1.0"
+		    android:visibility="gone"
+	        android:id="@+id/mainLinear11"/>
+	    <Button
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+		    android:layout_weight="1.0"
+		    android:visibility="gone"
+	        android:id="@+id/mainLinear12"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+	    <Button
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1.0"
+		    android:visibility="gone"
+	        android:id="@+id/mainLinear21"/>
+	    <Button
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1.0"
+		    android:visibility="gone"
+	        android:id="@+id/mainLinear22"/>
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+	    <Button
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1.0"
+		    android:visibility="gone"
+	        android:id="@+id/mainLinear31"/>
+	    <Button
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1.0"
+		    android:visibility="gone"
+	        android:id="@+id/mainLinear32"/>
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+	    <Button
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1.0"
+		    android:visibility="gone"
+	        android:id="@+id/mainLinear41"/>
+	    <Button
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1.0"
+		    android:visibility="gone"
+	        android:id="@+id/mainLinear42"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+	    <Button
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1.0"
+		    android:visibility="gone"
+	        android:id="@+id/mainLinear51"/>
+	    <Button
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1.0"
+		    android:visibility="gone"
+	        android:id="@+id/mainLinear52"/>
+	    
+        
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+	    <Button
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1.0"
+		    android:visibility="gone"
+	        android:id="@+id/mainLinear61"/>
+	    <Button
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1.0"
+		    android:visibility="gone"
+	        android:id="@+id/mainLinear62"/>
+    </LinearLayout>
+        
+    <ListView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/mainList1"/>
+    
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/mainSrcollView">
+	    <TextView
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:id="@+id/mainTextview1"/>
+    </ScrollView>
+
+</LinearLayout>
